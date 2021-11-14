@@ -31,8 +31,12 @@ int create_child(){
 
 int main(){
 printf("Value of function=%d", create_child());
-if(1)
-	printf("TRUE");
+if(1){
+	if(1)
+		printf("TRUE");
+	else
+		printf("False");
+}
 else
 	printf("False");
 
